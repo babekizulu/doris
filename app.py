@@ -11,8 +11,9 @@ import soundfile as sf
 import streamlit as st
 
 
-st.set_page_config(page_title="Audio Feature Exporter", layout="wide")
-st.title("Audio Feature Exporter")
+st.set_page_config(page_title="DORiS", layout="wide", page_icon="./assets/doris32x32.png")
+#st.title("DORiS")
+st.logo("./assets/doris60x60.svg", size="large")
 st.write("Convert WAV/FLAC files into CSV feature data.")
 
 
